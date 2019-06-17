@@ -1,0 +1,37 @@
+{
+  "name": "start",
+  "version": "1.0.0",
+  "description": "NodeJS lab wokrs.",
+  "main": "start.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
+    "deploy": "echo Current branch: $TRAVIS_BRANCH",
+    "build": "node index.js",
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheSubliminal/node_labs.git"
+  },
+  "author": "Michael Fridrikhson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheSubliminal/node_labs/issues"
+  },
+  "homepage": "https://github.com/TheSubliminal/node_labs#readme",
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "localtunnel": "^1.9.1",
+    "now": "^15.3.0"
+  },
+  "dependencies": {
+    "bufferutil": "^4.0.1",
+    "canvas": "^2.5.0",
+    "dotenv": "^8.0.0",
+    "encoding": "^0.1.12",
+    "jsdom": "^15.1.1",
+    "telegraf": "^3.29.0",
+    "utf-8-validate": "^5.0.2"
+  }
+}
